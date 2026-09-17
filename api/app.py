@@ -3,6 +3,10 @@ from flask_mail import Mail, Message
 import smtplib, ssl
 import json
 import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
 #app = Flask(__name__)
 app = Flask(
     __name__,
