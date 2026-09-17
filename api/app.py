@@ -3,7 +3,13 @@ from flask_mail import Mail, Message
 import smtplib, ssl
 import json
 import os
-app = Flask(__name__)
+#app = Flask(__name__)
+app = Flask(
+    __name__,
+    template_folder=os.path.join(BASE_DIR, "api", "templates"),
+    static_folder=os.path.join(BASE_DIR, "static"),
+    static_url_path="/static"
+)
 
 PROFILE_PATH = os.path.join("src\data")
 
@@ -11,7 +17,7 @@ PROFILE_PATH = os.path.join("src\data")
 app.config['MAIL_SERVER']='smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USERNAME'] = 'ramavtar200797@gmail.com'
-app.config['MAIL_PASSWORD'] = 'Pop(*)ty2025'
+app.config['MAIL_PASSWORD'] = '#######'
 app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
