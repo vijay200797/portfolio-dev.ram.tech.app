@@ -10,12 +10,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #app = Flask(__name__)
 app = Flask(
     __name__,
-    template_folder=os.path.join(BASE_DIR, "api", "templates"),
+    #template_folder=os.path.join(BASE_DIR, "api", "templates"),
+    template_folder=os.path.join(BASE_DIR, "templates"),
     static_folder=os.path.join(BASE_DIR, "static"),
     static_url_path="/static"
 )
 
-PROFILE_PATH = os.path.join(BASE_DIR, "api", "data")
+# PROFILE_PATH = os.path.join(BASE_DIR, "api", "data")
+PROFILE_PATH = os.path.join(BASE_DIR,  "data")
 
 # configuration of mail
 app.config['MAIL_SERVER']='smtp.gmail.com'
