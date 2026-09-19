@@ -42,8 +42,8 @@ def index():
     return render_template("index.html", context=profile)
 
 def read_profile():
-    print("File Path "+ os.path.join(PROFILE_PATH, "\profile.json"))
-    with open( os.path.join(PROFILE_PATH , "\profile.json") ) as proile:
+    print("File Path "+ os.path.join(PROFILE_PATH, "profile.json"))
+    with open( os.path.join(PROFILE_PATH , "profile.json") ) as proile:
         return json.loads(proile.read()) 
 
 
