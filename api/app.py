@@ -26,7 +26,8 @@ app.config['MAIL_USE_TLS'] = False
 app.config['MAIL_USE_SSL'] = True
 mail = Mail(app)
 
-@app.route("/")
+#@app.route("/")
+@app.get("/")
 def index():
     profile = read_profile()
     print(profile)
