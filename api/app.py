@@ -33,7 +33,7 @@ def index():
     return render_template("index.html", context=profile)
 
 def read_profile():
-    print("File Path "+  PROFILE_PATH + "\profile.json")
+    print("File Paths "+  PROFILE_PATH + "\profile.json")
     with open(PROFILE_PATH + "\profile.json") as proile:
         return json.loads(proile.read()) 
 
