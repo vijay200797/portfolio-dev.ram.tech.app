@@ -31,7 +31,8 @@ mail = Mail(app)
 #@app.route("/")
 @app.get("/")
 def index():
-    profile = read_profile()
+    #profile = read_profile()
+    profile = None
     print(profile)
     return render_template("index.html", context=profile)
 
