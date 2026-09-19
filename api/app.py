@@ -15,7 +15,7 @@ app = Flask(
     static_url_path="/static"
 )
 
-PROFILE_PATH = os.path.join("src\data")
+PROFILE_PATH = os.path.join(BASE_DIR, "api", "data")
 
 # configuration of mail
 app.config['MAIL_SERVER']='smtp.gmail.com'
@@ -33,7 +33,7 @@ def index():
     return render_template("index.html", context=profile)
 
 def read_profile():
-    print(PROFILE_PATH + "\profile.json")
+    print("File Path "+  PROFILE_PATH + "\profile.json")
     with open(PROFILE_PATH + "\profile.json") as proile:
         return json.loads(proile.read()) 
 
