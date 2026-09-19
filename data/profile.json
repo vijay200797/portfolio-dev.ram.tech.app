@@ -1,0 +1,168 @@
+{
+    "Portfolio": {
+        "Profile": {
+            "Name": "Ram Avtar",
+            "Profile_Pic": "",
+            "Titles": [
+                "Web &#38; Backend Developer",
+                "ETL &#38; Data Migration Developer",
+                "Freelancer"
+            ],
+            "About": {
+                "Email": "vijay200797@gmail.com",
+                "Birthday": "5th Oct 1985",
+                "Age": "39",
+                "Website": "www.portfolio-dev.ram.tech",
+                "Degree": "Master (MCA)",
+                "Phone": "+91 9896 383320",
+                "Address": "Patel Nagar",
+                "City": "Sonipat (Hry), IN",
+                "Freelance": "Available",
+                "Titles": [
+                    "Web &#38; Backend",
+                    "ETL &#38; Data Migration Developer"
+                ],
+                "Description1": "I build secure, high-performance backend systems and handle complex data operations end-to-end. My expertise spans Python frameworks like Django, Flask, and FastAPI, along with ASP.NET for enterprise-grade solutions. I design RESTful APIs, integrate with Angular frontends, and ensure seamless communication between systems.",
+                "Description2": "As a freelancer, I work with clients globally to deliver backend and data-driven solutions tailored to their needs. I thrive in remote environments, collaborating effectively across time zones, and delivering scalable, production-ready systems."
+            }
+        },
+        "Skills": {
+            "Summary": "I&#39;ve built deep technical expertise through years of real-world, hands-on development and data work.",
+            "TechRates": [
+                {
+                    "Tech": "Python",
+                    "Rate": "90"
+                },
+                {
+                    "Tech": "Django",
+                    "Rate": "80"
+                },
+                {
+                    "Tech": "Flask",
+                    "Rate": "70"
+                },
+                {
+                    "Tech": "FastAPI",
+                    "Rate": "65"
+                },
+                {
+                    "Tech": "Pandas",
+                    "Rate": "60"
+                },
+                {
+                    "Tech": "ASP.net",
+                    "Rate": "85"
+                },
+                {
+                    "Tech": "ASP.net core",
+                    "Rate": "60"
+                },
+                {
+                    "Tech": "Angular",
+                    "Rate": "60"
+                },
+                {
+                    "Tech": "RDBMS (SQL,MYSQL)",
+                    "Rate": "75"
+                },
+                {
+                    "Tech": "Docker, Git",
+                    "Rate": "50"
+                }
+            ],
+            "TechStack": {
+                "LanguagesAndFrameworks": "Python, Django, Flask, FastAPI, ASP.NET",
+                "FrontEndIntegrations": "Angular",
+                "DataTools": "Pandas, SQL, PostgreSQL, MySQL",
+                "DevTools": "REST APIs, Docker, Git",
+                "Specialties": "Backend APIs &#46; ETL Pipelines &#46; Data Migration &#46; System Integration &#46; Remote Collaboration"
+            }
+        },
+        "Resume": {
+            "Objective": "Motivated freelance developer with hands-on experience in backend development and data engineering, seeking a full-time role to apply my skills in building scalable APIs, designing ETL pipelines, and managing complex data migration workflows. Eager to contribute to a collaborative team environment and deliver reliable, data-driven backend solutions.",
+            "Summary": "<I><strong>Innovative and deadline-driven Backend Developer and Data Engineer</strong></I> with 16+ years of experience building scalable web applications, developing API-driven backend systems, and executing end-to-end data migration and transformation workflows from initial architecture to final deployment."
+        },
+        "Educations": [
+            {
+                "Education": "Master of Computer Science",
+                "Duration": "2012-2013",
+                "University": "Punjab Technical University Jalandhar",
+                "Desc": "A dynamic academic journey named MCA flows through my career path, enriching it with essential knowledge in programming, system design, and data management."
+            },
+            {
+                "Education": "Bachelor of Computer Science",
+                "Duration": "2008-2010",
+                "University": "Punjab Technical University Jalandhar",
+                "Desc": "IT flows through my academic path, supplying me with essential knowledge in programming, networking, and information systems-fueling my passion for technology and problem-solving."
+            },
+            {
+                "Education": "Diploma in Computer Application",
+                "Duration": "2003-2006",
+                "University": "Hindu Institute of Techincal Approved by AICTE",
+                "Desc": "IT flows through my learning journey, equipping me with essential computer knowledge and practical skills that laid the groundwork for my career in IT."
+            }
+        ],
+        "Experince": [
+            {
+                "Company": "BlueRose Technologies",
+                "Designation": "Senior Consultant",
+                "Duration": "Jun 23 - Dec 24",
+                "Location": "Gurugram, Hry IN",
+                "Description": ""
+            },
+            {
+                "Company": "Ernst & Young LLP",
+                "Designation": "Senior Consultant",
+                "Duration": "Dec 21 - May 23",
+                "Location": "Pune, MH IN",
+                "Description": ""
+            },
+            {
+                "Company": "Job Vision Consultants",
+                "Designation": "Software Developer",
+                "Duration": "Apr 12 - Nov 21",
+                "Location": "Delhi, IN",
+                "Description": ""
+            },
+            {
+                "Company": "Akhil Systems Pvt Ltd",
+                "Designation": "Software Engineer",
+                "Duration": "Jan 11 - Mar 12",
+                "Location": "Delhi, IN",
+                "Description": ""
+            },
+            {
+                "Company": "Cyber Approach",
+                "Designation": "Software Engineer",
+                "Duration": "Nov 09 - Dec 10",
+                "Location": "Noida, UP IN",
+                "Description": ""
+            }
+        ],
+        "Projects": {},
+        "Socials": [
+            {
+                "Social": "Linked In",
+                "Class": "linkedin",
+                "Link": "https://www.linkedin.com/in/ram-avtar-89079126"
+            },
+            {
+                "Social": "Facebook",
+                "Class": "facebook",
+                "Link": "#"
+            },
+            {
+                "Social": "Instagram",
+                "Class": "instagram",
+                "Link": "#"
+            }
+        ],
+        "Achievement": {},
+        "Service": {
+            "Title": "Great pains are taken to ensure smooth service. Responsibilities are followed through even when challenges arise. We are committed to quality and integrity. Every client matters. No one is left behind, and support is always provided. We stand by our work, even in complex or difficult situations."
+        },
+        "Contact": {
+            "Title": "Have a question or want to work together? Feel free to drop me a message. I'd love to hear from you!"
+        }
+    }
+}
